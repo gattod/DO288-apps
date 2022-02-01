@@ -9,7 +9,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'Value in the APP_MSG env var is => ' + msg + '\n';
+    response = 'Gatto ---- Value in the APP_MSG env var is => ' + msg + '\n';
 
     // Read in the secret file
     fs.readFile('/opt/app-root/secure/gattomyapp.sec', 'utf8', function (secerr,secdata) {
